@@ -1,6 +1,9 @@
 {
 :lang :dahalo
 :sgpref "dah"
+:datasource "Tosco1991"
+:geodemoURL "http://www.ethnologue.com/language/dai"
+:geodemoTXT "Varieties and subdialects of Dahalo are spoken in "
 :schemata {
 :aspect [:Imperfective, :Perfective, :U]
 	  :gender [:Common, :Fem, :Masc]
