@@ -347,564 +347,39 @@ aama:Dahalo-lub a aamas:Lexeme ;
 	aamas:gloss "hit" ;
 	.
 
-#TERMCLUSTER:  dahalo-VAffNonPastGen-lub
+#TERMCLUSTER:  dahalo-VAffImprtvImperfective-lub
 
-dah:dahalo-VAffNonPastGen-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffNonPastGen-lub" ;
+dah:dahalo-VAffImprtvImperfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffImprtvImperfective-lub" ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:IDc9b702a5-a4a1-4902-b0d7-b9e0e51d60db a aamas:Term ;
+aama:ID25e51598-2e2b-4b95-9deb-5e73a3bae91c a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
-	dah:aspect dah:U ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:NonPastGen ;
-	dah:token-template "XVCo" ;
-	dah:token "lúbo" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
+	aamas:memberOf dah:dahalo-VAffImprtvImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	dah:gender dah:Common ;
-	.
-
-aama:ID4d1fa1f8-23ac-4494-8dcc-1762211d249d a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
-	dah:aspect dah:U ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:NonPastGen ;
-	dah:token-template "XVxCVxto" ;
-	dah:token "lúbuto" ;
 	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID16026547-771e-43f0-92d2-14bf9bad9f2c a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
-	dah:aspect dah:U ;
-	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:NonPastGen ;
-	dah:token-template "XVCCi" ;
-	dah:token "lúbbi" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
-	.
-
-aama:IDce3c4b27-1ad2-49d7-bc8c-019e88b12209 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
-	dah:aspect dah:U ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:NonPastGen ;
-	dah:token-template "XVxCVxto" ;
-	dah:token "lúbuto" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:IDbecb27f4-b870-4e94-a702-1b228b0b50e1 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
-	dah:aspect dah:U ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:NonPastGen ;
-	dah:token-template "XVxCVxno" ;
-	dah:token "lúbuno" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDc002760e-ec13-433b-8027-0540dade0d4c a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
-	dah:aspect dah:U ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:NonPastGen ;
-	dah:token-template "XVxCVxten" ;
-	dah:token "lúbuten" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDfcb837ec-64a2-4190-aa75-8a2d8edc3630 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
-	dah:aspect dah:U ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:NonPastGen ;
-	dah:token-template "XVCCen / XVCammi" ;
-	dah:token "lúbben / lúbammi" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-#TERMCLUSTER:  dahalo-VAffPastGenPerfective-lub
-
-dah:dahalo-VAffPastGenPerfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffPastGenPerfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:IDc5c62802-e76d-428e-90d6-487377c0c6c9 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbu" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID8c72efb8-5022-4ff8-8f4e-a8f700fbd4f2 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuti" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID82a39921-5e63-4b4f-83c3-f4143381b323 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
+	dah:tam dah:Imperative ;
 	dah:token "lúbi" ;
-	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
 	.
 
-aama:IDca892e6b-e568-44cc-97f3-4a6184a910dc a aamas:Term ;
+aama:ID95aa31bf-f0ab-4613-ae50-5c28b1dfc9e2 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuti" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:ID4a6070bd-e3ae-4316-be46-ce35ac154d4a a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuni" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
+	aamas:memberOf dah:dahalo-VAffImprtvImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	dah:gender dah:Common ;
-	.
-
-aama:IDfdc1d858-707a-4e5a-b960-2ccad694a3fd a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
-	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúti(n)" ;
 	dah:person dah:Person2 ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Imperative ;
+	dah:token "lube" ;
 	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDc2075112-7ccf-4f33-9695-1417fe59e2c8 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubi(n)" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-#TERMCLUSTER:  dahalo-VAffJussImperfective-lub
-
-dah:dahalo-VAffJussImperfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffJussImperfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:IDd3d261fb-f66b-41aa-a6ff-ccdc76d519ff a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbe" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDf9c280c9-bb4b-422c-9988-585a144f6fb5 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbute" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDa813b064-730b-4634-9e89-9e0f08e97800 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbbe" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
-	.
-
-aama:ID33e00a05-f436-4c96-8c5b-641a27537e58 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbute" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:ID7a84e8a6-46f8-4c31-91e5-53173f0365c4 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbune" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID157b4b0d-67e8-4003-beea-a94923b4b74c a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuteene" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID5bcda8d0-0323-46b0-bb0a-8a03375fcd7d a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbamme" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-#TERMCLUSTER:  dahalo-VAffPastHabPerfective-lub
-
-dah:dahalo-VAffPastHabPerfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffPastHabPerfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:IDe0a9fff2-c368-4256-8a3e-23fac4f896c9 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "luba" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID44eae25c-c429-458a-8c81-0ee79f991ef0 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúta" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID84ff7145-9a3c-4726-a900-6c0a1ab43875 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lubba" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
-	.
-
-aama:IDf6043d45-6f9e-427e-aae2-9a1b04dc2f5a a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúta" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:ID2bfcb90b-f435-473a-a972-6eede87b6c00 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúna" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDd77d439b-7d9c-4b80-8a9a-38faf8f9f228 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lubútina" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDf7d6a0e3-f549-4b8f-8ffc-f23a7941cd19 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbina" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-#TERMCLUSTER:  dahalo-VAffPastHabImperfective-lub
-
-dah:dahalo-VAffPastHabImperfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffPastHabImperfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:IDc720901d-fcf9-4282-bee6-c4e73a9d334f a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúba" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID5a1e8378-29d5-424b-8d4a-d8e51f9ac640 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuta" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDdaf7861e-3713-4fc7-b12f-32582ab8c3d0 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbba" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
-	.
-
-aama:ID605f1b3c-86b6-41e4-8a95-5da6156cfa9b a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuta" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:IDa59450d4-35de-4a69-abb2-3fd247cf816b a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuna" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID98484526-f1a1-455f-b71b-337f513c1d03 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuteena" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID5bca8d9f-f849-4526-8069-d95e3c59778a a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastHab ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbamma" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
 	.
 
 #TERMCLUSTER:  dahalo-VAffNonPastSubj-lub
@@ -914,7 +389,7 @@ dah:dahalo-VAffNonPastSubj-lub a aamas:Termcluster ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID614ccc20-4400-407e-9298-51dce7c0c10a a aamas:Term ;
+aama:ID3d1f1bff-0db8-488a-8d0b-26a80cf5e712 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffNonPastSubj-lub ;
 	dah:aspect dah:U ;
@@ -922,14 +397,14 @@ aama:ID614ccc20-4400-407e-9298-51dce7c0c10a a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:NonPastSubj ;
-	dah:token-template "XVxCa" ;
+	dah:token-note-template "XVxCa" ;
 	dah:token "lúba" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID9a9739ad-dd75-4e79-b09e-734201fa50b8 a aamas:Term ;
+aama:ID52049a84-c15b-45a2-8011-9b1aa7463351 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffNonPastSubj-lub ;
 	dah:aspect dah:U ;
@@ -937,14 +412,14 @@ aama:ID9a9739ad-dd75-4e79-b09e-734201fa50b8 a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:NonPastSubj ;
-	dah:token-template "XVxCVxta" ;
+	dah:token-note-template "XVxCVxta" ;
 	dah:token "lúbuta" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDec1b0c28-a80e-474d-993e-78ac0a9ad4d4 a aamas:Term ;
+aama:IDa842a20d-10bc-47fa-a244-b84ae90c3796 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffNonPastSubj-lub ;
 	dah:aspect dah:U ;
@@ -952,14 +427,14 @@ aama:IDec1b0c28-a80e-474d-993e-78ac0a9ad4d4 a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:NonPastSubj ;
-	dah:token-template "XVCa" ;
+	dah:token-note-template "XVCa" ;
 	dah:token "luba" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Masc ;
 	.
 
-aama:IDd7f96a89-859b-47ed-a310-e4d05a3baebb a aamas:Term ;
+aama:IDbd34dc94-bdd7-4a36-accd-4a2918c49b52 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffNonPastSubj-lub ;
 	dah:aspect dah:U ;
@@ -967,14 +442,14 @@ aama:IDd7f96a89-859b-47ed-a310-e4d05a3baebb a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:NonPastSubj ;
-	dah:token-template "XVxCVxta" ;
+	dah:token-note-template "XVxCVxta" ;
 	dah:token "lúbuta" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID0266db43-3bb7-4a05-b34c-c85beb4be1a9 a aamas:Term ;
+aama:ID930b4f81-7bca-42d2-994b-da90d9e2dee4 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffNonPastSubj-lub ;
 	dah:aspect dah:U ;
@@ -982,14 +457,14 @@ aama:ID0266db43-3bb7-4a05-b34c-c85beb4be1a9 a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:NonPastSubj ;
-	dah:token-template "XVxCVxna" ;
+	dah:token-note-template "XVxCVxna" ;
 	dah:token "lúbuna" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDe1fc58ce-dc5b-4422-9ace-202b5781ba86 a aamas:Term ;
+aama:IDf1d6aad0-291a-49ac-9f46-a8ca7cf244e5 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffNonPastSubj-lub ;
 	dah:aspect dah:U ;
@@ -997,14 +472,14 @@ aama:IDe1fc58ce-dc5b-4422-9ace-202b5781ba86 a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:NonPastSubj ;
-	dah:token-template "XVxCVxteena" ;
+	dah:token-note-template "XVxCVxteena" ;
 	dah:token "lúbuteena" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDf31c3959-6e7f-4f04-a090-fd7601faa7da a aamas:Term ;
+aama:IDd0ddac68-d64e-470a-b18e-78b01700d999 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffNonPastSubj-lub ;
 	dah:aspect dah:U ;
@@ -1012,425 +487,8 @@ aama:IDf31c3959-6e7f-4f04-a090-fd7601faa7da a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:NonPastSubj ;
-	dah:token-template "XVCamma" ;
+	dah:token-note-template "XVCamma" ;
 	dah:token "lúbamma" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-#TERMCLUSTER:  dahalo-VNegPastSubj-lub
-
-dah:dahalo-VNegPastSubj-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VNegPastSubj-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:ID320ba912-e5c8-46e0-8cc3-c5789d431e9a a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegPastSubj-lub ;
-	dah:aspect dah:U ;
-	dah:person dah:Common ;
-	dah:number dah:Common ;
-	dah:pos dah:Verb ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:token-template "_NULL" ;
-	dah:polarity dah:Negative ;
-	dah:tam dah:PastSubj ;
-	dah:gender dah:Common ;
-	dah:token "[= NEG pastSubj" ;
-	.
-
-#TERMCLUSTER:  dahalo-VNegNonPastSubj-lub
-
-dah:dahalo-VNegNonPastSubj-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VNegNonPastSubj-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:ID5e6891ae-e37f-4786-b3ef-e76be91620d6 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegNonPastSubj-lub ;
-	dah:aspect dah:U ;
-	dah:person dah:Common ;
-	dah:number dah:Common ;
-	dah:pos dah:Verb ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:token-template "_NULL" ;
-	dah:polarity dah:Negative ;
-	dah:tam dah:NonPastSubj ;
-	dah:gender dah:Common ;
-	dah:token "[= NEG+IRR nonPastSubj" ;
-	.
-
-#TERMCLUSTER:  dahalo-VNegJussPerfective-lub
-
-dah:dahalo-VNegJussPerfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VNegJussPerfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:ID9e483848-dde9-4926-b0c9-0f850cd4c1c9 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúba" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID88b86df2-70c0-437b-9c6c-b651098e2057 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuta" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID60fc04d2-543d-4cc4-ab1a-b015ff4e035b a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbba" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
-	.
-
-aama:IDb32b709f-e3cc-425a-a0f8-009c0164e936 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuta" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:IDe8bf2eb9-af15-48d5-b948-b7c113222a4d a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuna" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID80d84b6a-814b-43e3-9e4b-8b169d0c7c4e a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubútina" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDc722f962-5bb1-4f7b-82bb-6127139a9b53 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubína" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-#TERMCLUSTER:  dahalo-VAffPastSubjImperfective-lub
-
-dah:dahalo-VAffPastSubjImperfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffPastSubjImperfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:IDe0be856e-c8fc-4107-b45b-abb113f0ff20 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbe" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID4f9cf804-8a42-4a73-b71d-c63e61d8e8f9 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbute" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID96ebbbf0-1d7f-454f-bb71-25c1c2fd6fa0 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbbe" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
-	.
-
-aama:ID692bde11-8c71-47fd-be3a-3e5d98cf79bb a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbute" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:IDc148449b-291e-40bd-b6ff-bd18bccd1a6d a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbune" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDd7d76fd5-de19-476b-9328-075e3eda7dd7 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbuteene" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDf5f0073c-7742-4bb0-b4ec-1b94bc503dd4 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbamme" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-#TERMCLUSTER:  dahalo-VAffImprtvImperfective-lub
-
-dah:dahalo-VAffImprtvImperfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffImprtvImperfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:ID485ecd36-6ebe-4f29-920e-ab5b0f70d5e7 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffImprtvImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	dah:gender dah:Common ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:person dah:Person2 ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Imperative ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbi" ;
-	dah:number dah:Singular ;
-	.
-
-aama:IDbe3a3a14-179a-46eb-92b3-be55924be1ec a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffImprtvImperfective-lub ;
-	dah:aspect dah:Imperfective ;
-	dah:gender dah:Common ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:person dah:Person2 ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:Imperative ;
-	dah:token-template "_NULL" ;
-	dah:token "lube" ;
-	dah:number dah:Plural ;
-	.
-
-#TERMCLUSTER:  dahalo-VAffPastSubjPerfective-lub
-
-dah:dahalo-VAffPastSubjPerfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffPastSubjPerfective-lub" ;
-	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
-	.
-
-aama:ID3ab82f4d-653b-426b-9bf5-8a5e1643009f a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lubi" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID8c908ed6-4712-4982-9bfe-c56c0d924ef1 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúti" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Common ;
-	.
-
-aama:IDb37d78a4-ff7f-4131-970a-5d883183f468 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lubbi" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Masc ;
-	.
-
-aama:ID8f096636-d8ff-44c8-8b24-86aaa2a51212 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúti" ;
-	dah:person dah:Person3 ;
-	dah:number dah:Singular ;
-	dah:gender dah:Fem ;
-	.
-
-aama:ID26b1c2bd-c0cf-423b-aebf-13d96cfae61f a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúni" ;
-	dah:person dah:Person1 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID7640b7b4-0d11-423a-bad2-9e10bb309e2e a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lubútine" ;
-	dah:person dah:Person2 ;
-	dah:number dah:Plural ;
-	dah:gender dah:Common ;
-	.
-
-aama:ID4b0f2a20-fa90-402d-b7c4-919481f88de3 a aamas:Term ;
-	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
-	dah:aspect dah:Perfective ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
-	dah:pos dah:Verb ;
-	dah:tam dah:PastSubj ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbine" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
@@ -1443,7 +501,7 @@ dah:dahalo-VNegPastGen-lub a aamas:Termcluster ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:IDc46ee4f5-b63c-4508-b777-05a91d17610d a aamas:Term ;
+aama:IDf4819fc5-b451-4ea5-89a1-4a6f76751d96 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1451,14 +509,13 @@ aama:IDc46ee4f5-b63c-4508-b777-05a91d17610d a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’á+i+va lube" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDbe0f9e82-5bec-41cf-9846-4e6d569fd8a2 a aamas:Term ;
+aama:ID12415cf8-f5e1-4d74-bd31-ed5cea8447cb a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1466,14 +523,13 @@ aama:IDbe0f9e82-5bec-41cf-9846-4e6d569fd8a2 a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’á+ku+va lube" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Masc ;
 	.
 
-aama:IDcb47aa67-323b-4e87-91ca-3b89e3c04c2f a aamas:Term ;
+aama:ID80d7b132-be0f-4594-ab83-f27c8a163481 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1481,14 +537,13 @@ aama:IDcb47aa67-323b-4e87-91ca-3b89e3c04c2f a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’á+ki+va lube" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Fem ;
 	.
 
-aama:IDd642bd88-d9c9-4c22-b80b-c772389d72cc a aamas:Term ;
+aama:IDc36a297a-874a-48be-b6ea-f604ab60e04c a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1496,14 +551,13 @@ aama:IDd642bd88-d9c9-4c22-b80b-c772389d72cc a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’á+va lube" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID7cdf81f6-35d6-441f-ad48-30af2d9c973a a aamas:Term ;
+aama:IDae7bd27f-6dac-452c-8ae5-47476ea3cfbb a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1511,14 +565,13 @@ aama:ID7cdf81f6-35d6-441f-ad48-30af2d9c973a a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’á+va lube" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID70924f8d-7972-4975-8d1a-e43ff7bf938b a aamas:Term ;
+aama:IDbf7fb6f0-62dc-4c3d-ae13-ebe8eb6c991c a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1526,14 +579,13 @@ aama:ID70924f8d-7972-4975-8d1a-e43ff7bf938b a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’á+ni+va lube" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDb5f511f0-02be-48dd-b8be-e8ee585edfa1 a aamas:Term ;
+aama:IDa57b6d4c-6fe3-47b7-8676-8549b05ae99f a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1541,14 +593,13 @@ aama:IDb5f511f0-02be-48dd-b8be-e8ee585edfa1 a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’a+kúnna+va lube" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Masc ;
 	.
 
-aama:IDb5d1ff65-e64e-4e13-b202-2d7660821b03 a aamas:Term ;
+aama:ID6b0233e1-f886-44dc-9692-51d915f731d7 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1556,14 +607,13 @@ aama:IDb5d1ff65-e64e-4e13-b202-2d7660821b03 a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’a+kínna+va lube" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Fem ;
 	.
 
-aama:IDb670b234-00a5-451f-9430-d84193031e88 a aamas:Term ;
+aama:ID220cfde0-3dac-4ef9-a4e3-0cec498aab10 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegPastGen-lub ;
 	dah:aspect dah:U ;
@@ -1571,8 +621,112 @@ aama:IDb670b234-00a5-451f-9430-d84193031e88 a aamas:Term ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
 	dah:token "b’á+va lube" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffPastGenImperfective-lub
+
+dah:dahalo-VAffPastGenImperfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffPastGenImperfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:ID55122fd9-9522-4cd5-9c32-de5b6c56414f a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubo" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDf2d4581c-5a40-4687-bd17-6210467cfd4f a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubúto" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID4c380cac-b544-4cb5-a3e4-ca0e883507a2 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubbi" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:ID2a1d2c36-999f-4df4-84f0-7dbc079bd914 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubúto" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:ID6e815db3-a019-4c02-96a1-0113a630bc3b a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubúno" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDf64fdc47-5266-49f6-bccb-b09024780e5e a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubúten" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID25e140d9-240d-4133-ae55-82c68587439a a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubben / lúbammi" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
@@ -1585,128 +739,141 @@ dah:dahalo-VNegNonPastGen-lub a aamas:Termcluster ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID5b03e6bf-54cb-4e70-af6a-214fa2773577 a aamas:Term ;
+aama:IDbc0c4458-0ab4-4cc9-90cf-634e05423146 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegNonPastGen-lub ;
 	dah:aspect dah:U ;
-	dah:person dah:Common ;
-	dah:number dah:Common ;
-	dah:pos dah:Verb ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:token-template "_NULL" ;
-	dah:polarity dah:Negative ;
-	dah:tam dah:NonPastGen ;
 	dah:gender dah:Common ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:number dah:Common ;
+	dah:person dah:Common ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
 	dah:token "[= NEG+IRR nonPastGen" ;
 	.
 
-#TERMCLUSTER:  dahalo-VAffJussPerfective-lub
+#TERMCLUSTER:  dahalo-VNegPastSubj-lub
 
-dah:dahalo-VAffJussPerfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffJussPerfective-lub" ;
+dah:dahalo-VNegPastSubj-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VNegPastSubj-lub" ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID05506560-3835-446a-9c8a-3423a632fe43 a aamas:Term ;
+aama:ID99436bb0-7793-4799-b4d7-3c51fd969edd a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
+	aamas:memberOf dah:dahalo-VNegPastSubj-lub ;
+	dah:aspect dah:U ;
+	dah:gender dah:Common ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:number dah:Common ;
+	dah:person dah:Common ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "[= NEG pastSubj" ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffPastHabImperfective-lub
+
+dah:dahalo-VAffPastHabImperfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffPastHabImperfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:IDaec99ee8-3f2f-4bd7-be6f-a096809d2918 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lube" ;
+	dah:tam dah:PastHab ;
+	dah:token "lúba" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDab20b47d-210e-46a7-bfad-256bda547398 a aamas:Term ;
+aama:IDbc68c1a0-7e7e-428f-9321-bb4bcdf5a46f a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
+	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúte" ;
+	dah:tam dah:PastHab ;
+	dah:token "lúbuta" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID041ce1e3-786c-4eb6-a615-0fdfc6984448 a aamas:Term ;
+aama:ID475963c6-3194-4cd8-980e-acb305c1b6ab a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
+	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubbe" ;
+	dah:tam dah:PastHab ;
+	dah:token "lúbba" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID43d1f76c-942f-445a-a093-22403a53dde2 a aamas:Term ;
+aama:ID8965dcf4-86f8-4171-8dbb-662f0233b670 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
+	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúte" ;
+	dah:tam dah:PastHab ;
+	dah:token "lúbuta" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID90e7f0e9-72c9-465b-92f1-1c75fae80ffa a aamas:Term ;
+aama:ID5d22a785-8f03-4ebd-bba9-8fe6bca5cedb a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
+	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúne" ;
+	dah:tam dah:PastHab ;
+	dah:token "lúbuna" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDc3ff8d00-d227-4136-b454-ebc40dedb44f a aamas:Term ;
+aama:IDd7bfd89c-eb87-4498-8b09-d525d98bbcf6 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
+	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubútine" ;
+	dah:tam dah:PastHab ;
+	dah:token "lúbuteena" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID164afd81-d827-4283-95df-8caae87f8863 a aamas:Term ;
+aama:ID48dfefcc-a9d7-4391-9a51-2cb0dc9fe14f a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
-	dah:aspect dah:Perfective ;
+	aamas:memberOf dah:dahalo-VAffPastHabImperfective-lub ;
+	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbine" ;
+	dah:tam dah:PastHab ;
+	dah:token "lúbamma" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
@@ -1719,240 +886,267 @@ dah:dahalo-VNegImprtv-lub a aamas:Termcluster ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID7246266c-4861-43ef-b6b4-c3dbf9fddd85 a aamas:Term ;
+aama:ID1654603f-fc47-45db-bcac-d06cb8250538 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VNegImprtv-lub ;
 	dah:aspect dah:U ;
-	dah:person dah:Common ;
-	dah:number dah:Common ;
-	dah:pos dah:Verb ;
-	aamas:lexeme aama:Dahalo-lub ;
-	dah:token-template "_NULL" ;
-	dah:polarity dah:Negative ;
-	dah:tam dah:Imperative ;
 	dah:gender dah:Common ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:number dah:Common ;
+	dah:person dah:Common ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Imperative ;
 	dah:token "[= juss neg 2" ;
 	.
 
-#TERMCLUSTER:  dahalo-VAffPastGenImperfective-lub
+#TERMCLUSTER:  dahalo-VNegPastHab-lub
 
-dah:dahalo-VAffPastGenImperfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VAffPastGenImperfective-lub" ;
+dah:dahalo-VNegPastHab-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VNegPastHab-lub" ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID8af2c454-c313-45f1-81b4-0c414a224955 a aamas:Term ;
+aama:ID7b3aa916-5d6b-410d-9ed8-981bbe373c17 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegPastHab-lub ;
+	dah:aspect dah:U ;
+	dah:gender dah:Common ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
+	dah:number dah:Common ;
+	dah:person dah:Common ;
+	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubo" ;
+	dah:tam dah:PastHab ;
+	dah:token "[= NEG pastHab" ;
+	.
+
+#TERMCLUSTER:  dahalo-VNegJussPerfective-lub
+
+dah:dahalo-VNegJussPerfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VNegJussPerfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:ID9559a10c-55df-41ee-a9eb-e42daa623f8f a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lúba" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID819dc74d-ed71-4c2a-8632-9c7405b4ac87 a aamas:Term ;
+aama:IDd62ed92c-1e2d-4c92-a8ee-e74844ed688f a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
+	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúto" ;
+	dah:tam dah:Jussive ;
+	dah:token "lúbuta" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDef469bc8-5822-4a96-825d-6999470ac3b3 a aamas:Term ;
+aama:IDaa8290ed-efe4-4fef-92e9-56492e59d425 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
+	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubbi" ;
+	dah:tam dah:Jussive ;
+	dah:token "lúbba" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID75d103a6-94e0-484a-a1d7-9e4df906dc61 a aamas:Term ;
+aama:ID5141c085-255a-466c-84c5-a6db69daa5d9 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
+	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúto" ;
+	dah:tam dah:Jussive ;
+	dah:token "lúbuta" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID709e24bd-f91a-4721-b16f-2b0fa4072e22 a aamas:Term ;
+aama:IDe4bbdd64-0c54-4ba4-869c-ad5cd5f0a6c7 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
+	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúno" ;
+	dah:tam dah:Jussive ;
+	dah:token "lúbuna" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID753e8db6-b79f-4cdc-a80b-b473d15a8a1b a aamas:Term ;
+aama:IDe790eb3b-9220-4a70-8123-f1355fc8ad68 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
+	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúten" ;
+	dah:tam dah:Jussive ;
+	dah:token "lubútina" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID27f6bec2-8563-44b9-a796-9bed494a110e a aamas:Term ;
+aama:ID756b2611-3914-4a58-8bf6-da48b84b9c44 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VAffPastGenImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Affirmative ;
+	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
-	dah:tam dah:PastGen ;
-	dah:token-template "_NULL" ;
-	dah:token "lubben / lúbammi" ;
+	dah:tam dah:Jussive ;
+	dah:token "lubína" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-#TERMCLUSTER:  dahalo-VNegJussImperfective-lub
+#TERMCLUSTER:  dahalo-VNegNonPastSubj-lub
 
-dah:dahalo-VNegJussImperfective-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VNegJussImperfective-lub" ;
+dah:dahalo-VNegNonPastSubj-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VNegNonPastSubj-lub" ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID04bb5304-af28-462c-8ffc-4106f9c29ca2 a aamas:Term ;
+aama:ID5b29a45d-6d92-44d9-b763-b62f3fc3ff8d a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
-	dah:aspect dah:Imperfective ;
+	aamas:memberOf dah:dahalo-VNegNonPastSubj-lub ;
+	dah:aspect dah:U ;
+	dah:gender dah:Common ;
 	aamas:lexeme aama:Dahalo-lub ;
+	dah:number dah:Common ;
+	dah:person dah:Common ;
 	dah:polarity dah:Negative ;
 	dah:pos dah:Verb ;
+	dah:tam dah:NonPastSubj ;
+	dah:token "[= NEG+IRR nonPastSubj" ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffJussImperfective-lub
+
+dah:dahalo-VAffJussImperfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffJussImperfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:IDe8e2d502-89d2-4851-a6af-2c1ca7c1a71a a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
 	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "luba" ;
+	dah:token "lúbe" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID11e08479-fcc3-450c-80aa-5cf1fe481705 a aamas:Term ;
+aama:ID5d7ae84e-bc8b-42f0-b6ec-7d35f1e6a502 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
 	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
+	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúta" ;
+	dah:token "lúbute" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID3f5dfccb-0068-43d3-ae0d-eb56390704d8 a aamas:Term ;
+aama:ID4821db78-bed5-4b4c-bda8-447637b56fc3 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
 	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
+	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubba" ;
+	dah:token "lúbbe" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID6d0f898e-7b4c-4493-b30a-423d40d8fbb8 a aamas:Term ;
+aama:ID39b59948-81a9-410e-a9e9-271de0006426 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
 	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
+	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúta" ;
+	dah:token "lúbute" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Singular ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID52a725e0-9c47-497a-8fb3-4f30965edf36 a aamas:Term ;
+aama:ID79f2a729-05ca-431d-bffe-84173cdf07d9 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
 	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
+	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúna" ;
+	dah:token "lúbune" ;
 	dah:person dah:Person1 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID9e74c1f0-1498-4eaf-ad3c-4de52d3c479d a aamas:Term ;
+aama:ID132f9f10-7f63-4e87-aaff-683579bc37ac a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
 	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
+	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lubúteena" ;
+	dah:token "lúbuteene" ;
 	dah:person dah:Person2 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDea1f421d-0c68-48f6-8850-c6332a2f3e13 a aamas:Term ;
+aama:ID5b1f4a31-e6d0-4ec9-af0e-0ea4287861de a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	aamas:memberOf dah:dahalo-VAffJussImperfective-lub ;
 	dah:aspect dah:Imperfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:polarity dah:Negative ;
+	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Jussive ;
-	dah:token-template "_NULL" ;
-	dah:token "lúbamma" ;
+	dah:token "lúbamme" ;
 	dah:person dah:Person3 ;
 	dah:number dah:Plural ;
 	dah:gender dah:Common ;
@@ -1965,7 +1159,7 @@ dah:dahalo-VAffImprtvPerfective-lub a aamas:Termcluster ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID4c99f61d-f3b1-4709-b4ac-fb2db3c9ef60 a aamas:Term ;
+aama:ID1d3b266b-42aa-4491-ab75-77aa6cf1a1c9 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffImprtvPerfective-lub ;
 	dah:aspect dah:Perfective ;
@@ -1975,12 +1169,11 @@ aama:ID4c99f61d-f3b1-4709-b4ac-fb2db3c9ef60 a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Imperative ;
-	dah:token-template "_NULL" ;
 	dah:token "lúbu" ;
 	dah:number dah:Singular ;
 	.
 
-aama:ID5a8bab05-f49e-468c-af16-b2569305956e a aamas:Term ;
+aama:IDc7a5d080-ef43-41d4-b76b-e31b631a9f7d a aamas:Term ;
 	aamas:lang aama:Dahalo ;
 	aamas:memberOf dah:dahalo-VAffImprtvPerfective-lub ;
 	dah:aspect dah:Perfective ;
@@ -1990,31 +1183,750 @@ aama:ID5a8bab05-f49e-468c-af16-b2569305956e a aamas:Term ;
 	dah:polarity dah:Affirmative ;
 	dah:pos dah:Verb ;
 	dah:tam dah:Imperative ;
-	dah:token-template "_NULL" ;
 	dah:token "lubo" ;
 	dah:number dah:Plural ;
 	.
 
-#TERMCLUSTER:  dahalo-VNegPastHab-lub
+#TERMCLUSTER:  dahalo-VAffPastGenPerfective-lub
 
-dah:dahalo-VNegPastHab-lub a aamas:Termcluster ;
-	rdfs:label "dahalo-VNegPastHab-lub" ;
+dah:dahalo-VAffPastGenPerfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffPastGenPerfective-lub" ;
 	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
 	.
 
-aama:ID2fb3e07e-b8bb-4f19-8551-d29bfbd4e2df a aamas:Term ;
+aama:ID90eb3365-588e-4f3f-bb5f-304d041ab878 a aamas:Term ;
 	aamas:lang aama:Dahalo ;
-	aamas:memberOf dah:dahalo-VNegPastHab-lub ;
-	dah:aspect dah:U ;
-	dah:person dah:Common ;
-	dah:number dah:Common ;
-	dah:pos dah:Verb ;
+	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
+	dah:aspect dah:Perfective ;
 	aamas:lexeme aama:Dahalo-lub ;
-	dah:token-template "_NULL" ;
-	dah:polarity dah:Negative ;
-	dah:tam dah:PastHab ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lúbu" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
 	dah:gender dah:Common ;
-	dah:token "[= NEG pastHab" ;
+	.
+
+aama:ID9554c38c-85f6-4feb-b7d4-b0a6e134c2ba a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lúbuti" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDec76c426-f78a-483b-a535-8d1a7b30c8b2 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lúbi" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:IDa8aacdd4-66c3-492b-8587-0617f225a96e a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lúbuti" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:ID2082166d-b0ad-4c48-8fd5-db3c0dbbaac3 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lúbuni" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID5a798071-5cdb-4114-9344-bc82661704ca a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubúti(n)" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID1d9e6dda-c64c-4222-a1ca-eaac682b277e a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastGenPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastGen ;
+	dah:token "lubi(n)" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffNonPastGen-lub
+
+dah:dahalo-VAffNonPastGen-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffNonPastGen-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:ID4962f3e3-4e8d-4411-9623-93ee1eea79fe a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
+	dah:aspect dah:U ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
+	dah:token-note-template "XVCo" ;
+	dah:token "lúbo" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID2e6e53c5-fb81-4b68-85dc-5f163d102203 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
+	dah:aspect dah:U ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
+	dah:token-note-template "XVxCVxto" ;
+	dah:token "lúbuto" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID565846bc-1e0d-42e1-8b1d-5cd0d5beab88 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
+	dah:aspect dah:U ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
+	dah:token-note-template "XVCCi" ;
+	dah:token "lúbbi" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:ID22b919ec-f92e-4c66-aad8-33d35d28fe07 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
+	dah:aspect dah:U ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
+	dah:token-note-template "XVxCVxto" ;
+	dah:token "lúbuto" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:IDec1d5dc4-dab6-4a12-b40a-3be65bb48898 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
+	dah:aspect dah:U ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
+	dah:token-note-template "XVxCVxno" ;
+	dah:token "lúbuno" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID11c19024-b343-40c4-bffa-0fa91ae73756 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
+	dah:aspect dah:U ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
+	dah:token-note-template "XVxCVxten" ;
+	dah:token "lúbuten" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDc7b83287-3f26-4849-9823-aa3079c99374 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffNonPastGen-lub ;
+	dah:aspect dah:U ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:NonPastGen ;
+	dah:token-note-template "XVCCen / XVCammi" ;
+	dah:token "lúbben / lúbammi" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffPastSubjPerfective-lub
+
+dah:dahalo-VAffPastSubjPerfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffPastSubjPerfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:ID2f06d84d-5e56-4606-afc7-073b04ed3629 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lubi" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID214833dc-3205-4145-8779-960a11f04b4c a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lubúti" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID62a8c0cb-d7bd-4173-9e34-f68883722e8b a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lubbi" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:ID3f196507-f7fa-4278-bfbb-fb2252653209 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lubúti" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:ID14351aba-5720-4f7a-ba32-752b2dd74b73 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lubúni" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDe0b86c2f-7902-45f4-8c25-f9f04be61507 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lubútine" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID5ffcc8e7-6ab9-4cb0-94f6-80200016f1b1 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbine" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+#TERMCLUSTER:  dahalo-VNegJussImperfective-lub
+
+dah:dahalo-VNegJussImperfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VNegJussImperfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:IDd41e1d01-76c3-4798-b3ac-a9ae312e6a94 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "luba" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID49e6f557-9c47-4560-8960-e9a5ebd67a9a a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubúta" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDdcf8d9d0-720f-4e7a-851a-e70b48fac341 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubba" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:ID6b41715a-d564-41b5-b3bb-43738958ed6b a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubúta" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:ID2ff34a65-5c30-45a2-9d09-bf7cd6c0c850 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubúna" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID6222f04f-609f-445f-a809-679fd446edb6 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubúteena" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID25cdc617-0768-4f59-b478-edbebcb65de4 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VNegJussImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Negative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lúbamma" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffJussPerfective-lub
+
+dah:dahalo-VAffJussPerfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffJussPerfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:ID956e607c-9206-40fb-b281-684d19370253 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lube" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID58225344-7006-4e26-9bf2-5a6149eb3500 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubúte" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID515ad7df-27c1-4ccc-affa-528c90b60c7d a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubbe" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:ID76ea91ba-c064-498c-910a-58164790fcd6 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubúte" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:ID5265f044-a472-4b3a-9e7f-9f186362ff11 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubúne" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID47a8d21a-8b75-4431-9ee4-a78c5f69cdd5 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lubútine" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID7c156b82-4dac-492f-8f32-8113ff35923e a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffJussPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:Jussive ;
+	dah:token "lúbine" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffPastHabPerfective-lub
+
+dah:dahalo-VAffPastHabPerfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffPastHabPerfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:ID8567fc65-4ddf-47ff-b8fb-1242a9854639 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastHab ;
+	dah:token "luba" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDa1ab0998-aff0-466a-aec9-714ebfceb952 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastHab ;
+	dah:token "lubúta" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDf3bfd70b-6773-4cfe-9c26-f653429c8200 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastHab ;
+	dah:token "lubba" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:ID2005f585-e43a-40a1-b36d-77e5b99ce62b a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastHab ;
+	dah:token "lubúta" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:ID00dea7ee-dd4d-46d5-886a-7f91477baf8c a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastHab ;
+	dah:token "lubúna" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDe7c9216e-bdcc-4b9d-a664-8f71ab2fca07 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastHab ;
+	dah:token "lubútina" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDe1af4f7f-a8c4-4e02-b6e9-4038f36c12ae a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastHabPerfective-lub ;
+	dah:aspect dah:Perfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastHab ;
+	dah:token "lúbina" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+#TERMCLUSTER:  dahalo-VAffPastSubjImperfective-lub
+
+dah:dahalo-VAffPastSubjImperfective-lub a aamas:Termcluster ;
+	rdfs:label "dahalo-VAffPastSubjImperfective-lub" ;
+	rdfs:comment "Tosco1991%%pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae%%Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined%%but certain verbs%%such as lub-%%can occur with both series of suffixes. (p. 49)" 
+	.
+
+aama:ID66bc8ef0-d6a5-4fd3-a7dd-23a2a70e9730 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbe" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDc3b2c7a5-b4dd-4bb8-89e3-55cd32e83969 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbute" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID918cc5af-b25c-46a7-a70d-633fd6584fda a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbbe" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Masc ;
+	.
+
+aama:IDb47fbdaf-9a3b-41b1-b5d9-0445c1f6ef98 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbute" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Singular ;
+	dah:gender dah:Fem ;
+	.
+
+aama:ID268c5374-bbaa-410a-a34f-6212ece3fdf5 a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbune" ;
+	dah:person dah:Person1 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:ID7ef1fb1f-1792-4fb9-b767-a169a10b05bf a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbuteene" ;
+	dah:person dah:Person2 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
+	.
+
+aama:IDca333b76-f4cf-401e-b673-fd178e749aeb a aamas:Term ;
+	aamas:lang aama:Dahalo ;
+	aamas:memberOf dah:dahalo-VAffPastSubjImperfective-lub ;
+	dah:aspect dah:Imperfective ;
+	aamas:lexeme aama:Dahalo-lub ;
+	dah:polarity dah:Affirmative ;
+	dah:pos dah:Verb ;
+	dah:tam dah:PastSubj ;
+	dah:token "lúbamme" ;
+	dah:person dah:Person3 ;
+	dah:number dah:Plural ;
+	dah:gender dah:Common ;
 	.
 
 #MUTERMCLUSTER:  dahalo-PBound
@@ -2024,7 +1936,7 @@ dah:dahalo-PBound a aamas:MuTermcluster ;
 	rdfs:comment "Tosco1991%%p. 37" 
 	.
 
-aama:IDf1df738e-1457-4196-ab4d-1110eeb612ae a aamas:Muterm ;
+aama:IDf4b47353-648f-4786-8c82-f1ea81d60f41 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2035,7 +1947,7 @@ aama:IDf1df738e-1457-4196-ab4d-1110eeb612ae a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID9e6d37c7-c802-4859-b8e0-754e3486800e a aamas:Muterm ;
+aama:ID81beff58-a5dd-4610-a1ef-48a95c31ae25 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2046,7 +1958,7 @@ aama:ID9e6d37c7-c802-4859-b8e0-754e3486800e a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:IDfaf418f4-4d7a-4810-b51f-d4a485e9818e a aamas:Muterm ;
+aama:ID7cf9e48a-ce76-487e-bb20-aba91149f538 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2057,7 +1969,7 @@ aama:IDfaf418f4-4d7a-4810-b51f-d4a485e9818e a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID599951a7-470e-45e3-aa2f-32114f89073d a aamas:Muterm ;
+aama:ID06b29cf2-bef5-40fd-ba80-414b29f3a541 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2068,7 +1980,7 @@ aama:ID599951a7-470e-45e3-aa2f-32114f89073d a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID0fe5308d-cd87-4631-be2e-413b92712d37 a aamas:Muterm ;
+aama:IDe3e89e23-23ca-47de-9381-c1f3af130eca a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2079,7 +1991,7 @@ aama:ID0fe5308d-cd87-4631-be2e-413b92712d37 a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:IDf85b2973-0a9b-4aca-9ca9-78fcd85be9d0 a aamas:Muterm ;
+aama:IDf9f2ce80-b998-4461-b188-6c9f06baab1c a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2090,7 +2002,7 @@ aama:IDf85b2973-0a9b-4aca-9ca9-78fcd85be9d0 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID0eaa2226-81da-45c8-9851-166b4b1e10a6 a aamas:Muterm ;
+aama:ID377cdca6-620c-4db9-bf53-694dedb30bff a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2101,7 +2013,7 @@ aama:ID0eaa2226-81da-45c8-9851-166b4b1e10a6 a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:IDc49c54e8-33bf-478d-8986-599876cf5a92 a aamas:Muterm ;
+aama:ID6dace6a9-8116-4be4-af6f-c12b1f4c7296 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2112,7 +2024,7 @@ aama:IDc49c54e8-33bf-478d-8986-599876cf5a92 a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID70de33d1-4655-46bc-8b0b-63d3758d968d a aamas:Muterm ;
+aama:ID6403b62a-807c-4b23-9193-b45927193c1c a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PBound ;
 	aamas:morpheme aama:Dahalo-PROBOUND ;
 	dah:pos dah:Pronoun ;
@@ -2130,7 +2042,7 @@ dah:dahalo-VSelector a aamas:MuTermcluster ;
 	rdfs:comment "Tosco1991%%pp. 68-75. Tosco distinguishes the selectors in the strict sense from the ventive and allative (motion from) particles%%which however are frequently associated with verbs. “D selectors do not signal person/number of the subject (as is the case in other languages)%%but only have an aspect/tense- (and possibly focus-) marking function”(p.68). They can occur in adpositional (post-NP) position%%or as a particle complex (PC) in the following serialization (p. 79%%where PC marker%%PCM%%is ʔa-):I (PCM%%AFF%%NEG (+IRR)) + II (OBJ) + III (PAST%%PERF) + IV (HAB%%VEN) + V (ALL%%COM%%INST) + VI (LOC) + VII (THIS%%THAT%%HERE%%THERE)." 
 	.
 
-aama:IDc8475388-4976-441a-984d-3f53a05f235b a aamas:Muterm ;
+aama:ID2785b861-a4a6-4d55-8692-b5d0c993ea6b a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2141,7 +2053,7 @@ aama:IDc8475388-4976-441a-984d-3f53a05f235b a aamas:Muterm ;
 	dah:selector dah:Pcm ;
 	.
 
-aama:IDfc85b091-f04c-45d7-bc7c-231f0e33a95f a aamas:Muterm ;
+aama:ID4c2bc703-9edf-48c7-84fd-24445beb9f8f a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2152,7 +2064,7 @@ aama:IDfc85b091-f04c-45d7-bc7c-231f0e33a95f a aamas:Muterm ;
 	dah:selector dah:Affirmative ;
 	.
 
-aama:IDc643e78e-9dc1-4098-b08f-6cb0bea9fc1d a aamas:Muterm ;
+aama:IDd5a9ea94-6f0c-4fb6-bbca-dfffaa190afa a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2163,7 +2075,7 @@ aama:IDc643e78e-9dc1-4098-b08f-6cb0bea9fc1d a aamas:Muterm ;
 	dah:selector dah:Negative ;
 	.
 
-aama:IDbbfff259-b6c3-47b2-a0f2-fbe87dd57217 a aamas:Muterm ;
+aama:ID37a5c615-b361-4662-87eb-e6ad046a42af a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2174,7 +2086,7 @@ aama:IDbbfff259-b6c3-47b2-a0f2-fbe87dd57217 a aamas:Muterm ;
 	dah:selector dah:Irrealis ;
 	.
 
-aama:ID04ba4e43-f57c-44d0-97ab-695e189b8275 a aamas:Muterm ;
+aama:ID390ac7b9-acfb-419a-9796-d6f29f6b20ba a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2185,7 +2097,7 @@ aama:ID04ba4e43-f57c-44d0-97ab-695e189b8275 a aamas:Muterm ;
 	dah:selector dah:Pronoun ;
 	.
 
-aama:ID80adbe1a-7a9d-4c24-906c-92e0c458ded4 a aamas:Muterm ;
+aama:ID196191c1-4a3a-48b4-88d5-0a4e2fbb86bd a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2196,7 +2108,7 @@ aama:ID80adbe1a-7a9d-4c24-906c-92e0c458ded4 a aamas:Muterm ;
 	dah:selector dah:Past ;
 	.
 
-aama:ID11e78c95-1bea-4e16-ae78-be8aa5f0dd82 a aamas:Muterm ;
+aama:ID04c3ae1d-3017-4a4c-9279-f685732df7db a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2207,7 +2119,7 @@ aama:ID11e78c95-1bea-4e16-ae78-be8aa5f0dd82 a aamas:Muterm ;
 	dah:selector dah:Perfect ;
 	.
 
-aama:ID65316f5d-1cdd-41fb-9fd8-660017356ba1 a aamas:Muterm ;
+aama:IDccf1dc39-3957-4b47-b553-da7771c310aa a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2218,7 +2130,7 @@ aama:ID65316f5d-1cdd-41fb-9fd8-660017356ba1 a aamas:Muterm ;
 	dah:selector dah:Habitual ;
 	.
 
-aama:IDbdae9e1d-cc16-4e59-93b2-84ae105ceebe a aamas:Muterm ;
+aama:ID0ee4e804-6f9f-410c-b86e-ce38fccf540c a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2229,7 +2141,7 @@ aama:IDbdae9e1d-cc16-4e59-93b2-84ae105ceebe a aamas:Muterm ;
 	dah:selector dah:Ventive ;
 	.
 
-aama:IDe387862e-9e4a-49f8-a7a0-54bbde7f5971 a aamas:Muterm ;
+aama:ID07bdda3f-d976-40e3-ac0d-f81a3262ea60 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2240,7 +2152,7 @@ aama:IDe387862e-9e4a-49f8-a7a0-54bbde7f5971 a aamas:Muterm ;
 	dah:selector dah:Allative ;
 	.
 
-aama:ID5c02794a-771c-4972-955c-84b781412286 a aamas:Muterm ;
+aama:IDe53013f8-64e8-4bac-a48d-705f806e415c a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2251,7 +2163,7 @@ aama:ID5c02794a-771c-4972-955c-84b781412286 a aamas:Muterm ;
 	dah:selector dah:Instrumental ;
 	.
 
-aama:ID169a71e3-f426-44a5-a991-7404b1775a5c a aamas:Muterm ;
+aama:ID70635c41-d59e-4a1e-8bc2-b6c6b4e1269c a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2262,7 +2174,7 @@ aama:ID169a71e3-f426-44a5-a991-7404b1775a5c a aamas:Muterm ;
 	dah:selector dah:Comitative ;
 	.
 
-aama:ID4a4f5493-18ee-4d17-9138-93da9cc7d152 a aamas:Muterm ;
+aama:ID56dee6e4-943c-4cf4-a480-5173debd4808 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2273,7 +2185,7 @@ aama:ID4a4f5493-18ee-4d17-9138-93da9cc7d152 a aamas:Muterm ;
 	dah:selector dah:Locative ;
 	.
 
-aama:IDb8097588-d54a-4811-bd2b-a5d4416cd11d a aamas:Muterm ;
+aama:ID574afcb0-daa7-4382-88e5-e9743e68026a a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2284,7 +2196,7 @@ aama:IDb8097588-d54a-4811-bd2b-a5d4416cd11d a aamas:Muterm ;
 	dah:selector dah:Near ;
 	.
 
-aama:ID1a5de23c-ba01-449d-89ea-c84f0aca3187 a aamas:Muterm ;
+aama:ID90a945b4-5e09-4aa7-8096-4cc4c52a3a52 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2295,7 +2207,7 @@ aama:ID1a5de23c-ba01-449d-89ea-c84f0aca3187 a aamas:Muterm ;
 	dah:selector dah:Far ;
 	.
 
-aama:ID049576d0-2dd2-4f6a-9dce-93206bc3d3ab a aamas:Muterm ;
+aama:ID8a13c7f3-4136-459a-bfb6-9d5aac0ee88b a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2306,7 +2218,7 @@ aama:ID049576d0-2dd2-4f6a-9dce-93206bc3d3ab a aamas:Muterm ;
 	dah:selector dah:Here ;
 	.
 
-aama:IDeed3e6df-1d81-48ad-83f6-c8c1bfdb0daa a aamas:Muterm ;
+aama:ID1872162b-281b-40de-a8b7-4634be655fc9 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-VSelector ;
 	aamas:morpheme aama:Dahalo-SELECTOR ;
 	dah:pos dah:Verb ;
@@ -2324,7 +2236,7 @@ dah:dahalo-PReduced a aamas:MuTermcluster ;
 	rdfs:comment "Tosco1991%%p. 37" 
 	.
 
-aama:ID5ea452c4-3360-4cac-8177-f71485a03d04 a aamas:Muterm ;
+aama:IDb13967db-ab46-4404-9caa-466c16c73ae8 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PReduced ;
 	aamas:morpheme aama:Dahalo-PROREDUCED ;
 	dah:pos dah:Pronoun ;
@@ -2335,7 +2247,7 @@ aama:ID5ea452c4-3360-4cac-8177-f71485a03d04 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDcacac268-8533-4e45-a196-b2c57ab88b48 a aamas:Muterm ;
+aama:ID03cb42ff-4290-4751-b1c2-f5b19fdd8194 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PReduced ;
 	aamas:morpheme aama:Dahalo-PROREDUCED ;
 	dah:pos dah:Pronoun ;
@@ -2346,7 +2258,7 @@ aama:IDcacac268-8533-4e45-a196-b2c57ab88b48 a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID82cfef65-f343-41f1-947e-6968e276b2ba a aamas:Muterm ;
+aama:IDdfcf5729-973b-48a5-a913-d8f250981247 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PReduced ;
 	aamas:morpheme aama:Dahalo-PROREDUCED ;
 	dah:pos dah:Pronoun ;
@@ -2357,7 +2269,7 @@ aama:ID82cfef65-f343-41f1-947e-6968e276b2ba a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:IDcc0dba2a-2bda-4d00-80ea-33462e0b89b3 a aamas:Muterm ;
+aama:ID26ed6a31-1bef-4ddd-8dc2-97c473d43e5c a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PReduced ;
 	aamas:morpheme aama:Dahalo-PROREDUCED ;
 	dah:pos dah:Pronoun ;
@@ -2375,7 +2287,7 @@ dah:dahalo-PInd a aamas:MuTermcluster ;
 	rdfs:comment "Tosco1991%%p. 37" 
 	.
 
-aama:IDc30e2aba-66cc-4fa6-835e-e23f31e8c807 a aamas:Muterm ;
+aama:ID93a693fc-f093-4f7e-81e5-cc31abef2840 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PInd ;
 	aamas:morpheme aama:Dahalo-PROIND ;
 	dah:pos dah:Pronoun ;
@@ -2386,7 +2298,7 @@ aama:IDc30e2aba-66cc-4fa6-835e-e23f31e8c807 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDa23219ef-cd95-4d1b-a328-1335b75f4675 a aamas:Muterm ;
+aama:IDf1296fd3-62f5-4013-81a9-ad5d67a0baf8 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PInd ;
 	aamas:morpheme aama:Dahalo-PROIND ;
 	dah:pos dah:Pronoun ;
@@ -2397,7 +2309,7 @@ aama:IDa23219ef-cd95-4d1b-a328-1335b75f4675 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID96087458-b32e-4d4c-a5b6-22322fc4586f a aamas:Muterm ;
+aama:ID20b7bf8a-6887-4f59-aad7-5a4f0823d103 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PInd ;
 	aamas:morpheme aama:Dahalo-PROIND ;
 	dah:pos dah:Pronoun ;
@@ -2408,7 +2320,7 @@ aama:ID96087458-b32e-4d4c-a5b6-22322fc4586f a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:IDa6288608-198b-4f28-8c0c-bb29e240daeb a aamas:Muterm ;
+aama:ID11c0c681-8120-4788-849b-fab55e203e8a a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PInd ;
 	aamas:morpheme aama:Dahalo-PROIND ;
 	dah:pos dah:Pronoun ;
@@ -2419,7 +2331,7 @@ aama:IDa6288608-198b-4f28-8c0c-bb29e240daeb a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID186eae0e-54dc-48ff-a4fd-eda4255f79c7 a aamas:Muterm ;
+aama:IDd569daac-b570-4f36-b069-0108d59d586e a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PInd ;
 	aamas:morpheme aama:Dahalo-PROIND ;
 	dah:pos dah:Pronoun ;
@@ -2430,7 +2342,7 @@ aama:ID186eae0e-54dc-48ff-a4fd-eda4255f79c7 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID9f8215a4-7f5e-487d-8243-d8caad4f0b12 a aamas:Muterm ;
+aama:IDfa467313-b04f-4d40-9b99-4bbb7ac53b24 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PInd ;
 	aamas:morpheme aama:Dahalo-PROIND ;
 	dah:pos dah:Pronoun ;
@@ -2441,7 +2353,7 @@ aama:ID9f8215a4-7f5e-487d-8243-d8caad4f0b12 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID064de15a-99f1-4043-a14c-4429ef925371 a aamas:Muterm ;
+aama:ID5078b431-778e-44f0-8eb4-43e363510798 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PInd ;
 	aamas:morpheme aama:Dahalo-PROIND ;
 	dah:pos dah:Pronoun ;
@@ -2459,7 +2371,7 @@ dah:dahalo-PPoss a aamas:MuTermcluster ;
 	rdfs:comment "Tosco1991%%p. 39" 
 	.
 
-aama:ID27dec036-5786-4323-938c-c8777649412b a aamas:Muterm ;
+aama:IDa35a9d88-0b84-432f-8335-c1b8471f2928 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2471,7 +2383,7 @@ aama:ID27dec036-5786-4323-938c-c8777649412b a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID96e71174-8c52-49c9-b640-b87951e011ed a aamas:Muterm ;
+aama:ID329c8e83-224d-4d6f-89cf-83d1b393222d a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2483,7 +2395,7 @@ aama:ID96e71174-8c52-49c9-b640-b87951e011ed a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID7add27a4-f559-4eb7-a2a4-5bf3e5805c12 a aamas:Muterm ;
+aama:IDa0fa9105-58bc-4d52-a1fd-f12b1ace5ab6 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2495,7 +2407,7 @@ aama:ID7add27a4-f559-4eb7-a2a4-5bf3e5805c12 a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID640c2bda-bcfc-4f60-aedd-09629a345f1a a aamas:Muterm ;
+aama:ID2fa7a698-7ee0-4636-ae59-86d532d241b0 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2507,7 +2419,7 @@ aama:ID640c2bda-bcfc-4f60-aedd-09629a345f1a a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID9fee769e-756f-44ad-86f5-d7ddfc7a2af5 a aamas:Muterm ;
+aama:ID11bd7a02-ad5b-442a-b491-c1006038475a a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2519,7 +2431,7 @@ aama:ID9fee769e-756f-44ad-86f5-d7ddfc7a2af5 a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID040d2529-e9e6-4d04-bbea-823a68f0b4d9 a aamas:Muterm ;
+aama:IDd467c987-fbc2-4a8b-80f3-400f874a791a a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2531,7 +2443,7 @@ aama:ID040d2529-e9e6-4d04-bbea-823a68f0b4d9 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDf5a9da94-4de9-48d0-9b1b-938bf6c9ebab a aamas:Muterm ;
+aama:IDab8f60a4-ffba-417c-b703-3484f0c493ae a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2543,7 +2455,7 @@ aama:IDf5a9da94-4de9-48d0-9b1b-938bf6c9ebab a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID2b9f3881-d878-4c7a-bcdb-affa920f3c88 a aamas:Muterm ;
+aama:ID5ba988ed-2b17-4802-ba54-c0930ea43e65 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2555,7 +2467,7 @@ aama:ID2b9f3881-d878-4c7a-bcdb-affa920f3c88 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDb2f9d485-0285-4d37-a32c-28d5e4ee7451 a aamas:Muterm ;
+aama:ID1b379cc3-82e3-4c8c-8414-f86a8a5a8748 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2567,7 +2479,7 @@ aama:IDb2f9d485-0285-4d37-a32c-28d5e4ee7451 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:IDd2b82483-c737-47ae-9ff5-ae7307619cfe a aamas:Muterm ;
+aama:IDa32ee25e-ee64-46d8-a290-925ae9da1246 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2579,7 +2491,7 @@ aama:IDd2b82483-c737-47ae-9ff5-ae7307619cfe a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:IDf11dfb2e-cd6a-4ab9-9a91-5ef01f70b3de a aamas:Muterm ;
+aama:IDda1d608f-ed2c-42b6-b918-6348858c3816 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2591,7 +2503,7 @@ aama:IDf11dfb2e-cd6a-4ab9-9a91-5ef01f70b3de a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID6d55911d-9479-4f58-bc35-6fc4fa100aec a aamas:Muterm ;
+aama:IDcedece65-5089-4c57-8b53-0a25445c55d8 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2603,7 +2515,7 @@ aama:ID6d55911d-9479-4f58-bc35-6fc4fa100aec a aamas:Muterm ;
 	dah:gender dah:Masc ;
 	.
 
-aama:ID25260230-dfb5-400c-9db3-cf541519d036 a aamas:Muterm ;
+aama:IDe54331f6-bf0d-46bd-8aef-645226923211 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2615,7 +2527,7 @@ aama:ID25260230-dfb5-400c-9db3-cf541519d036 a aamas:Muterm ;
 	dah:gender dah:Fem ;
 	.
 
-aama:ID4b52c2b5-2ffa-4c46-a019-cc3aafa202d0 a aamas:Muterm ;
+aama:ID28b96011-b140-4f60-80bc-1ddd1d6b34c5 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2627,7 +2539,7 @@ aama:ID4b52c2b5-2ffa-4c46-a019-cc3aafa202d0 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID8a2d62c5-5877-41bc-8030-21423a14cd56 a aamas:Muterm ;
+aama:IDdda373a8-86e8-46df-9155-0dee29e4b1ab a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;
@@ -2639,7 +2551,7 @@ aama:ID8a2d62c5-5877-41bc-8030-21423a14cd56 a aamas:Muterm ;
 	dah:gender dah:Common ;
 	.
 
-aama:ID000c182d-d758-4ba2-929d-ad3352c38a01 a aamas:Muterm ;
+aama:ID203f1542-39d8-45bd-bb5d-ece616634978 a aamas:Muterm ;
 	aamas:lang aama:Dahalo ;	aamas:memberOf dah:dahalo-PPoss ;
 	aamas:morpheme aama:Dahalo-PROPOSS ;
 	dah:pos dah:Pronoun ;

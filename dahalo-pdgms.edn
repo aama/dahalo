@@ -36,7 +36,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :NonPastGen}
-    :terms [[:gender, :number, :person, :token, :token-template]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-template]  ;; schema
 	    [:Common, :Singular, :Person1, "lúbo", "XVCo"],
 	    [:Common, :Singular, :Person2, "lúbuto", "XVxCVxto"],
 	    [:Masc, :Singular, :Person3, "lúbbi", "XVCCi"],
@@ -54,8 +54,7 @@
 	    :person :Common,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :NonPastGen,
-	    :token-template :_NULL}
+	    :tam :NonPastGen}
     :terms [[:token]  ;; schema
 	    ["[= NEG+IRR nonPastGen"]]
     }
@@ -65,8 +64,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :PastSubj,
-	    :token-template :_NULL}
+	    :tam :PastSubj}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lubi"],
 	    [:Common, :Singular, :Person2, "lubúti"],
@@ -85,8 +83,7 @@
 	    :person :Common,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Imperative,
-	    :token-template :_NULL}
+	    :tam :Imperative}
     :terms [[:token]  ;; schema
 	    ["[= juss neg 2"]]
     }
@@ -96,8 +93,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :Jussive,
-	    :token-template :_NULL}
+	    :tam :Jussive}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lúbe"],
 	    [:Common, :Singular, :Person2, "lúbute"],
@@ -113,8 +109,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :PastHab,
-	    :token-template :_NULL}
+	    :tam :PastHab}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lúba"],
 	    [:Common, :Singular, :Person2, "lúbuta"],
@@ -130,8 +125,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :Jussive,
-	    :token-template :_NULL}
+	    :tam :Jussive}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lube"],
 	    [:Common, :Singular, :Person2, "lubúte"],
@@ -147,8 +141,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :PastHab,
-	    :token-template :_NULL}
+	    :tam :PastHab}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "luba"],
 	    [:Common, :Singular, :Person2, "lubúta"],
@@ -164,8 +157,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :PastGen,
-	    :token-template :_NULL}
+	    :tam :PastGen}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lúbu"],
 	    [:Common, :Singular, :Person2, "lúbuti"],
@@ -183,8 +175,7 @@
 	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :Imperative,
-	    :token-template :_NULL}
+	    :tam :Imperative}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "lúbi"],
 	    [:Plural, "lube"]]
@@ -195,8 +186,7 @@
 	    :lexeme :lub,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :PastGen,
-	    :token-template :_NULL}
+	    :tam :PastGen}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "b’á+i+va lube"],
 	    [:Masc, :Singular, :Person2, "b’á+ku+va lube"],
@@ -217,8 +207,7 @@
 	    :person :Common,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :PastHab,
-	    :token-template :_NULL}
+	    :tam :PastHab}
     :terms [[:token]  ;; schema
 	    ["[= NEG pastHab"]]
     }
@@ -228,8 +217,7 @@
 	    :lexeme :lub,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Jussive,
-	    :token-template :_NULL}
+	    :tam :Jussive}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "luba"],
 	    [:Common, :Singular, :Person2, "lubúta"],
@@ -248,8 +236,7 @@
 	    :person :Common,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :NonPastSubj,
-	    :token-template :_NULL}
+	    :tam :NonPastSubj}
     :terms [[:token]  ;; schema
 	    ["[= NEG+IRR nonPastSubj"]]
     }
@@ -261,8 +248,7 @@
 	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :Imperative,
-	    :token-template :_NULL}
+	    :tam :Imperative}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "lúbu"],
 	    [:Plural, "lubo"]]
@@ -274,7 +260,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :NonPastSubj}
-    :terms [[:gender, :number, :person, :token, :token-template]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-template]  ;; schema
 	    [:Common, :Singular, :Person1, "lúba", "XVxCa"],
 	    [:Common, :Singular, :Person2, "lúbuta", "XVxCVxta"],
 	    [:Masc, :Singular, :Person3, "luba", "XVCa"],
@@ -289,8 +275,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :PastSubj,
-	    :token-template :_NULL}
+	    :tam :PastSubj}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lúbe"],
 	    [:Common, :Singular, :Person2, "lúbute"],
@@ -306,8 +291,7 @@
 	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :PastGen,
-	    :token-template :_NULL}
+	    :tam :PastGen}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lubo"],
 	    [:Common, :Singular, :Person2, "lubúto"],
@@ -323,8 +307,7 @@
 	    :lexeme :lub,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Jussive,
-	    :token-template :_NULL}
+	    :tam :Jussive}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "lúba"],
 	    [:Common, :Singular, :Person2, "lúbuta"],
@@ -343,8 +326,7 @@
 	    :person :Common,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :PastSubj,
-	    :token-template :_NULL}
+	    :tam :PastSubj}
     :terms [[:token]  ;; schema
 	    ["[= NEG pastSubj"]]
     }}
