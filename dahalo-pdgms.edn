@@ -5,19 +5,25 @@
 :geodemoURL "http://www.ethnologue.com/language/dai"
 :geodemoTXT "Varieties and subdialects of Dahalo are spoken in "
 :schemata {
-:aspect [:Imperfective, :Perfective, :U]
+:aspect [:Imperfective, :Perfective]
 	  :gender [:Common, :Fem, :Masc]
 	  :morphClass [:Selector]
 	  :number [:Common, :Plural, :Singular]
-	  :person [:Common, :Person1, :Person2, :Person3]
+	  :person [:PUnmarked, :Person1, :Person2, :Person3]
 	  :polarity [:Affirmative, :Negative]
 	  :pos [:Pronoun, :Verb]
 	  :proClass [:Bound, :Independent, :Possessive, :Reduced]
-	  :selector [:Affirmative, :Allative, :Comitative, :Far, :Habitual, :Here, :Instrumental, :Irrealis, :Locative, :Near, :Negative, :Past, :Pcm, :Perfect, :Pronoun, :There, :Ventive]
+	  :selectorClass [:Affirmative, :Allative, :Comitative, :Far, :Habitual, :Here, :Instrumental, :Irrealis, :Locative, :Near, :Negative, :Past, :Pcm, :Perfect, :Pronoun, :There, :Ventive]
 	  :selectorPosition [:Pos1, :Pos2, :Pos3, :Pos4, :Pos5, :Pos6, :Pos7]
 	  :tam [:Imperative, :Jussive, :NonPastGen, :NonPastSubj, :PastGen, :PastHab, :PastSubj]
-	  :type [:Fem, :M-or-pl]
+	  :genderHead [:HeadFem, :HeadM_Pl]
 	  }
+:pclass {
+           :pngClass [:person :number :gender :genderHead ]
+           :synsemClass [:aspect :case :morphClass :selectorClass :polarity :pos :proClass :tamb ]
+           :inflClass [:selectorPosition  ]
+           :otherClass [ ]
+          }
 :morphemes {
   :PROBOUND {:gloss "[x]", :lemma "[y]", }
   :PROIND {:gloss "[x]", :lemma "[y]", }
@@ -47,11 +53,10 @@
     }
     {:label "dahalo-VNegNonPastGen-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-    :common {:aspect :U,
-	    :gender :Common,
+    :common {	    :gender :Common,
 	    :lexeme :lub,
-	    :number :Common,
-	    :person :Common,
+	    :number :NUnmarked,
+	    :person :PUnmarked,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :NonPastGen}
@@ -76,11 +81,10 @@
     }
     {:label "dahalo-VNegImprtv-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-    :common {:aspect :U,
-	    :gender :Common,
+    :common {	    :gender :Common,
 	    :lexeme :lub,
-	    :number :Common,
-	    :person :Common,
+	    :number :NUnmarked,
+	    :person :PUnmarked,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
@@ -182,8 +186,7 @@
     }
     {:label "dahalo-VNegPastGen-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-    :common {:aspect :U,
-	    :lexeme :lub,
+    :common {	    :lexeme :lub,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PastGen}
@@ -200,11 +203,10 @@
     }
     {:label "dahalo-VNegPastHab-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-    :common {:aspect :U,
-	    :gender :Common,
+    :common {	    :gender :Common,
 	    :lexeme :lub,
-	    :number :Common,
-	    :person :Common,
+	    :number :NUnmarked,
+	    :person :PUnmarked,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PastHab}
@@ -229,11 +231,10 @@
     }
     {:label "dahalo-VNegNonPastSubj-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-    :common {:aspect :U,
-	    :gender :Common,
+    :common {	    :gender :Common,
 	    :lexeme :lub,
-	    :number :Common,
-	    :person :Common,
+	    :number :NUnmarked,
+	    :person :PUnmarked,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :NonPastSubj}
@@ -255,8 +256,7 @@
     }
     {:label "dahalo-VAffNonPastSubj-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-    :common {:aspect :U,
-	    :lexeme :lub,
+    :common {	    :lexeme :lub,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :NonPastSubj}
@@ -319,11 +319,10 @@
     }
     {:label "dahalo-VNegPastSubj-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-    :common {:aspect :U,
-	    :gender :Common,
+    :common {	    :gender :Common,
 	    :lexeme :lub,
-	    :number :Common,
-	    :person :Common,
+	    :number :NUnmarked,
+	    :person :PUnmarked,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PastSubj}
@@ -363,23 +362,23 @@
     :common {:morpheme :PROPOSS,
 	    :pos :Pronoun,
 	    :proClass :Possessive}
-    :terms [[:gender, :number, :person, :token, :type]  ;; schema
-	    [:Common, :Singular, :Person1, "ʔitts+i", :M-or-pl],
-	    [:Masc, :Singular, :Person2, "-kuʔ+u", :M-or-pl],
-	    [:Fem, :Singular, :Person2, "-kiʔ+i", :M-or-pl],
-	    [:Masc, :Singular, :Person3, "-suʔ+u", :M-or-pl],
-	    [:Fem, :Singular, :Person3, "-siʔ+i", :M-or-pl],
-	    [:Common, :Plural, :Person1, "-ɲiʔ+i", :M-or-pl],
-	    [:Common, :Plural, :Person2, "-kunuʔ+u", :M-or-pl],
-	    [:Common, :Plural, :Person3, "-mámuʔusuʔ+u", :M-or-pl],
-	    [:Common, :Singular, :Person1, "ʔitts+a", :Fem],
-	    [:Masc, :Singular, :Person2, "-kuʔ+a", :Fem],
-	    [:Fem, :Singular, :Person2, "-kiʔ+a", :Fem],
-	    [:Masc, :Singular, :Person3, "-suʔ+a", :Fem],
-	    [:Fem, :Singular, :Person3, "-siʔ+a", :Fem],
-	    [:Common, :Plural, :Person1, "-ɲiʔ+a", :Fem],
-	    [:Common, :Plural, :Person2, "-kunuʔ+a", :Fem],
-	    [:Common, :Plural, :Person3, "-mámuʔusuʔ+a", :Fem]]
+    :terms [[:gender, :number, :person, :token, :genderHead]  ;; schema
+	    [:Common, :Singular, :Person1, "ʔitts+i", :HeadM_Pl],
+	    [:Masc, :Singular, :Person2, "-kuʔ+u", :HeadM_Pl],
+	    [:Fem, :Singular, :Person2, "-kiʔ+i", :HeadM_Pl],
+	    [:Masc, :Singular, :Person3, "-suʔ+u", :HeadM_Pl],
+	    [:Fem, :Singular, :Person3, "-siʔ+i", :HeadM_Pl],
+	    [:Common, :Plural, :Person1, "-ɲiʔ+i", :HeadM_Pl],
+	    [:Common, :Plural, :Person2, "-kunuʔ+u", :HeadM_Pl],
+	    [:Common, :Plural, :Person3, "-mámuʔusuʔ+u", :HeadM_Pl],
+	    [:Common, :Singular, :Person1, "ʔitts+a", :HeadFem],
+	    [:Masc, :Singular, :Person2, "-kuʔ+a", :HeadFem],
+	    [:Fem, :Singular, :Person2, "-kiʔ+a", :HeadFem],
+	    [:Masc, :Singular, :Person3, "-suʔ+a", :HeadFem],
+	    [:Fem, :Singular, :Person3, "-siʔ+a", :HeadFem],
+	    [:Common, :Plural, :Person1, "-ɲiʔ+a", :HeadFem],
+	    [:Common, :Plural, :Person2, "-kunuʔ+a", :HeadFem],
+	    [:Common, :Plural, :Person3, "-mámuʔusuʔ+a", :HeadFem]]
     }
     {:label "dahalo-PInd"
     :note "Tosco1991,p. 37"
@@ -400,7 +399,7 @@
     :common {:morpheme :SELECTOR,
 	    :pos :Verb,
 	    :morphClass :Selector}
-    :terms [[:selector, :selectorPosition, :token, :token-note]  ;; schema
+    :terms [[:selectorClass, :selectorPosition, :token, :token-note]  ;; schema
 	    [:Pcm, :Pos1, "ʔa-", "particle-complex marker"],
 	    [:Affirmative, :Pos1, "te", "affirmative action"],
 	    [:Negative, :Pos1, "b´á-", "negative"],
