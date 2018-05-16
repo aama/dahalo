@@ -16,7 +16,7 @@
            :selectorClass [:Affirmative :Allative :Comitative :Far :Habitual :Here :Instrumental :Irrealis :Locative :Near :Negative :Past :Pcm :Perfect :Pronoun :There :Ventive],
            :selectorPosition [:Pos1 :Pos2 :Pos3 :Pos4 :Pos5 :Pos6 :Pos7],
            :tam [:Imperative :Jussive :NonPastGen :NonPastSubj :PastGen :PastHab :PastSubj]
-           :vmorphclass [:Finite :VSelector]}
+           :vmorphClass [:Finite :VSelector]}
  :pclass {:pngClass [:person :number :gender :genderHead],
           :synsemClass [:aspect :case :morphClass :selectorClass :polarity :pos :proClass :tamb],
           :inflClass [:selectorPosition],
@@ -25,7 +25,7 @@
  :termclusters [
                 {:label "dahalo-VAffImprtvImperfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :gender :Common,
                           :lexeme :lub,
@@ -39,7 +39,7 @@
                  }
                 {:label "dahalo-VAffImprtvPerfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :gender :Common,
                           :lexeme :lub,
@@ -53,7 +53,7 @@
                  }
                 {:label "dahalo-VAffJussImperfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -70,7 +70,7 @@
                  }
                 {:label "dahalo-VAffJussPerfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -87,7 +87,7 @@
                  }
                 {:label "dahalo-VAffNonPastGen-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :_NA,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -104,7 +104,7 @@
                  }
                 {:label "dahalo-VAffNonPastSubj-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :lub,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -120,7 +120,7 @@
                  }
                 {:label "dahalo-VAffPastGenImperfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -137,7 +137,7 @@
                  }
                 {:label "dahalo-VAffPastGenPerfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -154,7 +154,7 @@
                  }
                 {:label "dahalo-VAffPastHabImperfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -171,7 +171,7 @@
                  }
                 {:label "dahalo-VAffPastHabPerfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -188,7 +188,7 @@
                  }
                 {:label "dahalo-VAffPastSubjImperfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -205,7 +205,7 @@
                  }
                 {:label "dahalo-VAffPastSubjPerfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :lub,
                           :polarity :Affirmative,
@@ -222,7 +222,7 @@
                  }
                 {:label "dahalo-VNegImprtv-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :lub,
                           :number :_NA
@@ -235,7 +235,7 @@
                  }
                 {:label "dahalo-VNegJussImperfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :lub,
                           :polarity :Negative,
@@ -252,7 +252,7 @@
                  }
                 {:label "dahalo-VNegJussPerfective-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :lub,
                           :polarity :Negative,
@@ -269,7 +269,7 @@
                  }
                 {:label "dahalo-VNegNonPastGen-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :lub,
                           :number :_NA,
@@ -282,7 +282,7 @@
                  }
                 {:label "dahalo-VNegNonPastSubj-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :lub,
                           :number :_NA,
@@ -295,7 +295,7 @@
                  }
                 {:label "dahalo-VNegPastGen-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :lub,
                           :polarity :Negative,
                           :pos :Verb,
@@ -313,7 +313,7 @@
                  }
                 {:label "dahalo-VNegPastHab-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :lub,
                           :number :_NA,
@@ -326,7 +326,7 @@
                  }
                 {:label "dahalo-VNegPastSubj-lub"
                  :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :lub,
                           :number :_NA,
