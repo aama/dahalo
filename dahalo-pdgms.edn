@@ -5,8 +5,7 @@
 :datasource "Tosco1991"
 :geodemoURL "http://www.ethnologue.com/language/dal"
 :geodemoTXT "Varieties and subdialects of Dahalo are spoken in Kenya, 'Lamu and Tana River counties: near Tana river mouth'; about 400 speakers in 1992."
-:schemata {:lexeme [:lub ],
- :aspect [:Imperfective :Perfective :_NA],
+:schemata { :aspect [:Imperfective :Perfective :_NA],
  :gender [:Common :Fem :Masc],
  :genderHead [:HeadFem :HeadM_Pl],
  :number [:Plural :Singular :_NA],
@@ -23,7 +22,9 @@
           :synsemClass [:aspect :case :morphClass :selectorClass :polarity :pos :proClass :tamb],
           :inflClass [:selectorPosition],
           :otherClass []}
-:lexemes{:lub {:lemma "lub-", :gloss "hit"}}
+:lexemes {
+:lub   {:pos :Verb, :lemma "lub-", :gloss "hit", },
+}
 :termclusters [
     {:label "dahalo-VAffImprtvImperfective-lub"
     :note "Tosco1991,pp. 53-61. Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)"
