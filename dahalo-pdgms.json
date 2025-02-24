@@ -1,9 +1,25 @@
 {
   "lang": "dahalo",
-  "subfamily": "Cushitic South",
+  "subfamily": "cushitic south",
   "lgpref": "dah",
   "datasource": "Tosco, Mauro. 1991. A Grammatical Sketch of Dahalo. Hamburg: Helmut Buske Verlag [T91]",
   "datasourceNotes": "",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": "i e a o u; ii ee aa oo uu",
+    "Tone": "'a' unmarked :'á'high"},  
+"dataNotes": {
+    "1": "T91pp.68-75 :: Tosco distinguishes the selectors in the strict sense from the ventive and allative (motion from) particles,which however are 34frequently associated with verbs. Dahalo selectors do not signal person/number of the subject (as is the case in other languages),but only have an aspect/tense- (and possibly focus-) marking function”(p.68). They can occur in adpositional (post-NP) position,or as a particle complex (PC) in the following serialization (p. 79,where PC marker,PCM,is ʔa-):I (PCM,AFF,NEG (+IRR)) + II (OBJ) + III (PAST,PERF) + IV (HAB,VEN) + V (ALL,COM,INST) + VI (LOC) + VII (THIS,THAT,HERE,THERE).",
+    "2": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61).",
+    "3": "In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "4": "Template to be added to ALL lub- pdgms.",
+    "5": "Fill out negative pdgms."
+  },
   "geodemoURL": "http://www.ethnologue.com/language/dal",
   "geodemoTXT": "Varieties and subdialects of Dahalo are spoken in Kenya, ZZLamu and Tana River counties: near Tana river mouthZZ; about 400 speakers in 1992.",
   "schemata": {
@@ -23,6 +39,9 @@
   ],
   "lexeme": [
     "lub"
+  ],
+  "morphClass": [
+    "VTemplate"
   ],
   "number": [
     "NUnmarked",
@@ -89,20 +108,28 @@
     "PastGen",
     "PastHab",
     "PastSubj"
+  ],
+  "toke": [
+    "XVCa",
+    "XVCamma",
+    "XVxCVxna",
+    "XVxCVxta",
+    "XVxCVxteena",
+    "XVxCa"
   ]
 },
   "lexemes": {
-  "lub": {
-    "pos": "Verb",
-    "lemma": "lub-",
-    "gloss": "hit"
-  }
-},
+    "lub": {
+      "pos": "Verb",
+      "lemma": "lub-",
+      "gloss": "hit"
+    }
+  },
   "pdgmPropOrder": ["pos", "proClass", "morphClass", "selClass", "tam", "aspect",  "polarity"],
   "termclusters": [
   {
     "label": "dah-PronounBound",
-    "note": "T91p.37",
+    "note": "MT91p.37",
     "common": {
       "pos": "Pronoun",
       "proClass": "Bound"
@@ -122,7 +149,7 @@
   },
   {
     "label": "dah-PronounIndependent",
-    "note": "T91p.37",
+    "note": "MT91p.37",
     "common": {
       "pos": "Pronoun",
       "proClass": "Independent"
@@ -140,7 +167,7 @@
   },
   {
     "label": "dah-PronounPossessive",
-    "note": "T91p.39",
+    "note": "MT91p.39",
     "common": {
       "pos": "Pronoun",
       "proClass": "Possessive"
@@ -167,7 +194,7 @@
   },
   {
     "label": "dah-PronounReduced",
-    "note": "T91p.37",
+    "note": "MT91p.37",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reduced"
@@ -182,35 +209,35 @@
   },
   {
     "label": "dah-SelectorSelectors",
-    "note": "T91pp.68-75 :: Tosco distinguishes the selectors in the strict sense from the ventive and allative (motion from) particles,which however are frequently associated with verbs. “D selectors do not signal person/number of the subject (as is the case in other languages),but only have an aspect/tense- (and possibly focus-) marking function”(p.68). They can occur in adpositional (post-NP) position,or as a particle complex (PC) in the following serialization (p. 79,where PC marker,PCM,is ʔa-):I (PCM,AFF,NEG (+IRR)) + II (OBJ) + III (PAST,PERF) + IV (HAB,VEN) + V (ALL,COM,INST) + VI (LOC) + VII (THIS,THAT,HERE,THERE).",
+    "note": "MT91p.79 ;; DataNotes1",
     "common": {
       "pos": "Selector",
       "selClass": "Selectors"
     },
     "terms": [
-      ["selectorClass" ,"selectorPosition" ,"token" ,"token-note"],
-      ["Affirmative" ,"Pos1" ,"te" ,"affirmative action"],
-      ["Allative" ,"Pos5" ,"-jí" ,"allative"],
-      ["Comitative" ,"Pos5" ,"ʔinto ~ -nto" ,"comitative"],
-      ["Far" ,"Pos7" ,"-k[ó]~ -t[ó]" ,"far deictic"],
-      ["Habitual" ,"Pos4" ,"-jí" ,"habitual action"],
-      ["Here" ,"Pos7" ,"-kwatta" ,"adposition frm adverb"],
-      ["Instrumental" ,"Pos5" ,"⊤" ,"instrumental"],
-      ["Irrealis" ,"Pos1" ,"-ká" ,"unrealised action"],
-      ["Locative" ,"Pos6" ,"-da" ,"locative adposition"],
-      ["Near" ,"Pos7" ,"-kwa" ,"near deictic"],
-      ["Negative" ,"Pos1" ,"b´á-" ,"negative"],
-      ["Past" ,"Pos3" ,"-va ~ -k/gwa" ,"remoter past"],
-      ["Pcm" ,"Pos1" ,"ʔa-" ,"particle-complex marker"],
-      ["Perfect" ,"Pos3" ,"-ná" ,"perfect"],
-      ["Pronoun" ,"Pos2" ,"⊤" ,"cf. pdgm proBound"],
-      ["There" ,"Pos7" ,"-kotta ~ -kutta" ,"adposition frm adverb"],
-      ["Ventive" ,"Pos4" ,"⊤" ,"ventive (directional particle)"]
+      ["selectorPosition" ,"selectorClass" ,"token" ,"tokennote"],
+      ["Pos1" ,"Affirmative" ,"te" ,"affirmative action"],
+      ["Pos1" ,"Irrealis" ,"-ká" ,"unrealised action"],
+      ["Pos1" ,"Negative" ,"b´á-" ,"negative"],
+      ["Pos1" ,"Pcm" ,"ʔa-" ,"particle-complex marker"],
+      ["Pos2" ,"Pronoun" ,"[pdgm:dah-PronounBound]" ,"cf. pdgm proBound"],
+      ["Pos3" ,"Past" ,"-va ~ -k/gwa" ,"remoter past"],
+      ["Pos3" ,"Perfect" ,"-ná" ,"perfect"],
+      ["Pos4" ,"Habitual" ,"-jí" ,"habitual action"],
+      ["Pos4" ,"Ventive" ,"?á" ,"ventive (directional particle)"],
+      ["Pos5" ,"Allative" ,"-jí" ,"allative"],
+      ["Pos5" ,"Comitative" ,"ʔinto ~ -nto" ,"comitative"],
+      ["Pos5" ,"Instrumental" ,"-?í" ,"instrumental"],
+      ["Pos6" ,"Locative" ,"-da" ,"locative adposition"],
+      ["Pos7" ,"Far" ,"-k[ó]~ -t[ó]" ,"far deictic"],
+      ["Pos7" ,"Here" ,"-kwatta" ,"adposition frm adverb"],
+      ["Pos7" ,"Near" ,"-kwa" ,"near deictic"],
+      ["Pos7" ,"There" ,"-kotta ~ -kutta" ,"adposition frm adverb"]
     ]
   },
   {
     "label": "dah-VerbImperativeImperfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.59 :: Neg = Jussive Negative",
     "common": {
       "aspect": "Imperfective",
       "lexeme": "lub",
@@ -225,22 +252,8 @@
     ]
   },
   {
-    "label": "dah-VerbImperativeNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
-    "common": {
-      "lexeme": "lub",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["NUnmarked" ,"PUnmarked" ,"Common" ,"[= juss neg 2]"]
-    ]
-  },
-  {
     "label": "dah-VerbImperativePerfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.59 :: Neg = Jussive Negative",
     "common": {
       "aspect": "Perfective",
       "lexeme": "lub",
@@ -256,7 +269,7 @@
   },
   {
     "label": "dah-VerbJussiveImperfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.57",
     "common": {
       "aspect": "Imperfective",
       "lexeme": "lub",
@@ -277,7 +290,7 @@
   },
   {
     "label": "dah-VerbJussiveImperfectiveNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.58",
     "common": {
       "aspect": "Imperfective",
       "lexeme": "lub",
@@ -298,7 +311,7 @@
   },
   {
     "label": "dah-VerbJussivePerfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.57",
     "common": {
       "aspect": "Perfective",
       "lexeme": "lub",
@@ -319,7 +332,7 @@
   },
   {
     "label": "dah-VerbJussivePerfectiveNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.58",
     "common": {
       "aspect": "Perfective",
       "lexeme": "lub",
@@ -340,7 +353,7 @@
   },
   {
     "label": "dah-VerbNonPastGenNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.53",
     "common": {
       "lexeme": "lub",
       "polarity": "Negative",
@@ -354,7 +367,7 @@
   },
   {
     "label": "dah-VerbNonPastGenUAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.53",
     "common": {
       "aspect": "U",
       "lexeme": "lub",
@@ -363,19 +376,19 @@
       "tam": "NonPastGen"
     },
     "terms": [
-      ["number" ,"person" ,"gender" ,"token" ,"token-note-template"],
-      ["Singular" ,"Person1" ,"Common" ,"lúbo" ,"XVCo"],
-      ["Singular" ,"Person2" ,"Common" ,"lúbuto" ,"XVxCVxto"],
-      ["Singular" ,"Person3" ,"Masc" ,"lúbbi" ,"XVCCi"],
-      ["Singular" ,"Person3" ,"Fem" ,"lúbuto" ,"XVxCVxto"],
-      ["Plural" ,"Person1" ,"Common" ,"lúbuno" ,"XVxCVxno"],
-      ["Plural" ,"Person2" ,"Common" ,"lúbuten" ,"XVxCVxten"],
-      ["Plural" ,"Person3" ,"Common" ,"lúbben / lúbammi" ,"XVCCen / XVCammi"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"lúbo"],
+      ["Singular" ,"Person2" ,"Common" ,"lúbuto"],
+      ["Singular" ,"Person3" ,"Masc" ,"lúbbi"],
+      ["Singular" ,"Person3" ,"Fem" ,"lúbuto"],
+      ["Plural" ,"Person1" ,"Common" ,"lúbuno"],
+      ["Plural" ,"Person2" ,"Common" ,"lúbuten"],
+      ["Plural" ,"Person3" ,"Common" ,"lúbben / lúbammi"]
     ]
   },
   {
     "label": "dah-VerbNonPastSubjAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.53",
     "common": {
       "lexeme": "lub",
       "polarity": "Affirmative",
@@ -383,19 +396,19 @@
       "tam": "NonPastSubj"
     },
     "terms": [
-      ["number" ,"person" ,"gender" ,"token" ,"token-note-template"],
-      ["Singular" ,"Person1" ,"Common" ,"lúba" ,"XVxCa"],
-      ["Singular" ,"Person2" ,"Common" ,"lúbuta" ,"XVxCVxta"],
-      ["Singular" ,"Person3" ,"Masc" ,"luba" ,"XVCa"],
-      ["Singular" ,"Person3" ,"Fem" ,"lúbuta" ,"XVxCVxta"],
-      ["Plural" ,"Person1" ,"Common" ,"lúbuna" ,"XVxCVxna"],
-      ["Plural" ,"Person2" ,"Common" ,"lúbuteena" ,"XVxCVxteena"],
-      ["Plural" ,"Person3" ,"Common" ,"lúbamma" ,"XVCamma"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"lúba"],
+      ["Singular" ,"Person2" ,"Common" ,"lúbuta"],
+      ["Singular" ,"Person3" ,"Masc" ,"luba"],
+      ["Singular" ,"Person3" ,"Fem" ,"lúbuta"],
+      ["Plural" ,"Person1" ,"Common" ,"lúbuna"],
+      ["Plural" ,"Person2" ,"Common" ,"lúbuteena"],
+      ["Plural" ,"Person3" ,"Common" ,"lúbamma"]
     ]
   },
   {
     "label": "dah-VerbNonPastSubjNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.54",
     "common": {
       "lexeme": "lub",
       "polarity": "Negative",
@@ -409,7 +422,7 @@
   },
   {
     "label": "dah-VerbPastGenImperfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.54",
     "common": {
       "aspect": "Imperfective",
       "lexeme": "lub",
@@ -430,7 +443,7 @@
   },
   {
     "label": "dah-VerbPastGenNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.55",
     "common": {
       "lexeme": "lub",
       "polarity": "Negative",
@@ -452,7 +465,7 @@
   },
   {
     "label": "dah-VerbPastGenPerfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.55",
     "common": {
       "aspect": "Perfective",
       "lexeme": "lub",
@@ -473,7 +486,7 @@
   },
   {
     "label": "dah-VerbPastHabImperfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.56",
     "common": {
       "aspect": "Imperfective",
       "lexeme": "lub",
@@ -494,7 +507,7 @@
   },
   {
     "label": "dah-VerbPastHabNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.57",
     "common": {
       "lexeme": "lub",
       "polarity": "Negative",
@@ -508,7 +521,7 @@
   },
   {
     "label": "dah-VerbPastHabPerfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.56",
     "common": {
       "aspect": "Perfective",
       "lexeme": "lub",
@@ -529,7 +542,7 @@
   },
   {
     "label": "dah-VerbPastSubjImperfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.55",
     "common": {
       "aspect": "Imperfective",
       "lexeme": "lub",
@@ -550,7 +563,7 @@
   },
   {
     "label": "dah-VerbPastSubjNegative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.56",
     "common": {
       "lexeme": "lub",
       "polarity": "Negative",
@@ -564,7 +577,7 @@
   },
   {
     "label": "dah-VerbPastSubjPerfectiveAffirmative",
-    "note": "T91pp.53-61 :: Negative tenses are marked in the selector complex. A special negative construction exists for pastGen:b’á+PRO+va LEX[infinitive](p. 61). In the template formulae,Vx indicates an epenthesized vowel identical with the stem vowel. ConjClass seems to be for the most part lexically determined,but certain verbs,such as lub-,can occur with both series of suffixes. (p. 49)",
+    "note": "MT91p.55",
     "common": {
       "aspect": "Perfective",
       "lexeme": "lub",
@@ -581,6 +594,47 @@
       ["Plural" ,"Person1" ,"Common" ,"lubúni"],
       ["Plural" ,"Person2" ,"Common" ,"lubútine"],
       ["Plural" ,"Person3" ,"Common" ,"lúbine"]
+    ]
+  },
+  {
+    "label": "dah-morphVerb-VTemplateNonPastGenUAffirmative",
+    "note": "MT91p.53",
+    "common": {
+      "aspect": "U",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "NonPastGen",
+      "morphClass": "VTemplate"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"XVCo"],
+      ["Singular" ,"Person2" ,"Common" ,"XVxCVxto"],
+      ["Singular" ,"Person3" ,"Masc" ,"XVCCi"],
+      ["Singular" ,"Person3" ,"Fem" ,"XVxCVxto"],
+      ["Plural" ,"Person1" ,"Common" ,"XVxCVxno"],
+      ["Plural" ,"Person2" ,"Common" ,"XVxCVxten"],
+      ["Plural" ,"Person3" ,"Common" ,"XVCCen / XVCammi"]
+    ]
+  },
+  {
+    "label": "dah-morphVerb-VTemplateNonPastSubjAffirmative",
+    "note": "MT91p.53",
+    "common": {
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "NonPastSubj",
+      "morphClass": "VTemplate"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"toke"],
+      ["Singular" ,"Person1" ,"Common" ,"XVxCa"],
+      ["Singular" ,"Person2" ,"Common" ,"XVxCVxta"],
+      ["Singular" ,"Person3" ,"Masc" ,"XVCa"],
+      ["Singular" ,"Person3" ,"Fem" ,"XVxCVxta"],
+      ["Plural" ,"Person1" ,"Common" ,"XVxCVxna"],
+      ["Plural" ,"Person2" ,"Common" ,"XVxCVxteena"],
+      ["Plural" ,"Person3" ,"Common" ,"XVCamma"]
     ]
   }
 ]}
